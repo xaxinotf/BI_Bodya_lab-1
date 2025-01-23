@@ -109,36 +109,6 @@ http://127.0.0.1:8050
 
 ---
 
-## Оцінка Виконання Вимог
-
-Я оцінюю виконання вимог наступним чином:
-
-1. **Present the "Star" Scheme (the structure of the data)**
-    - **Виконано:** Структура даних представлена у вигляді інтерактивної зіркової схеми за допомогою Dash Cytoscape.
-    - **Оцінка:** 100%
-
-2. **Fix the Dimensions (with Hierarchies) and the Measures of your data**
-    - **Виконано:** Визначено чотири Dimension Tables з відповідними ієрархіями та дві Measures (`trans_amount` та `balance_after_trans`).
-    - **Оцінка:** 100%
-
-3. **Visualise your data via Pivot Table to browse through it**
-    - **Виконано:** Створено інтерактивну Pivot Table для перегляду суми транзакцій за регіонами та роками.
-    - **Оцінка:** 100%
-
-4. **Notice: Recommended to have 1+ million rows of the raw data, 4+ Dimensions, 2+ Hierarchies, 2+ Measures**
-    - **Виконано:** Використано більше 1 мільйона рядків даних, чотири Dimension Tables з ієрархіями та дві Measures.
-    - **Оцінка:** 100%
-
-5. **Build the Multi-Dimensional Storage for the developed data source structure using something like Python**
-    - **Виконано:** Багатовимірна структура даних побудована за допомогою Python та pandas, з'єднання Fact Table з Dimension Tables через зовнішні ключі.
-    - **Оцінка:** 100%
-
-**Загальна оцінка:** Всі вимоги виконані повністю та чітко. Додаток відповідає усім поставленим завданням та забезпечує ефективну візуалізацію та аналіз фінансових даних.
-
----
-
-Якщо у вас виникнуть додаткові питання або потрібна допомога, не соромтеся звертатися!
-
 
 
 
